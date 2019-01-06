@@ -33,7 +33,7 @@ def get_tweets(username):
 	#write to a new csv file from the array of tweets
 	print "writing to {0}_tweets.csv".format(username)
 	with open("{0}_tweets.csv".format(username) , 'w+') as file:
-		writer = csv.writer(file, delimiter='|')
+		writer = csv.writer(file, delimiter=',')
 		writer.writerows(tweets_for_csv)
 
 
