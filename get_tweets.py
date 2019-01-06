@@ -13,7 +13,7 @@ consumer_secret = "your_consumer_secret"
 access_key = "your_access_key"
 access_secret = "your_access_secret"
 
-#method to get a user's last 100 tweets
+#method to get a user's last tweets
 def get_tweets(username):
 
 	#http://tweepy.readthedocs.org/en/v3.1.0/getting_started.html#api
@@ -21,18 +21,19 @@ def get_tweets(username):
 	auth.set_access_token(access_key, access_secret)
 	api = tweepy.API(auth)
 
-	#set count to however many tweets you want; twitter only allows 200 at once
+	#set count to however many tweets you want
 	number_of_tweets = 100
 
 	#get tweets
-	tweets = api.user_timeline(screen_name = username,count = number_of_tweets)
-
-	#create array of tweet information: username, tweet id, date/time, text
-	tweets_for_csv = [[username,tweet.id_str, tweet.created_at, tweet.text.encode("utf-8")] for tweet in tweets]
+	tweets_for_csv = []
+	for tweet in tweepy.Cursor(api.user_timeline, screen_name = username).items(number_of_tweets):
+        #create array of tweet information: username, tweet id, date/time, text
+		tweets_for_csv.append([username, tweet.id_str, tweet.created_at, tweet.text.encode("utf-8")])
 
 	#write to a new csv file from the array of tweets
-	print "writing to {0}_tweets.csv".format(username)
-	with open("{0}_tweets.csv".format(username) , 'w+') as file:
+	outfile = username + "_tweets.csv"
+	print "writing to " + outfile
+	with open(outfile, 'w+') as file:
 		writer = csv.writer(file, delimiter=',')
 		writer.writerows(tweets_for_csv)
 
