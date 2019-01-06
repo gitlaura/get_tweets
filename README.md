@@ -1,28 +1,30 @@
-#get_tweets.py: Python Script to Download Tweets
+## Python Script to Download Tweets
 
-Use this script to download the last 100 (or whatever number you choose) from any Twitter user.
+Use the script `get_tweets.py` to download the last 100 tweets (or whatever number you choose) from any Twitter user.
 
-##Installation & How To Use
+### Setup
+(1) You need to get your Twitter API Credentials by creating a new app at [apps.twitter.com](apps.twitter.com).
 
-```'''```
+(2) This script uses Tweepy. If you don't have Tweepy installed you need to run this command on the terminal first:
+
+```
+$ sudo pip install tweepy
+```
+
+### Clone and use the Python script
+Now you're ready to clone and use the get_tweets script.
+
+```
 $ git clone https://github.com/gitlaura/get_tweets.git
 $ cd get_tweets
 ```
-Then you need to get your Twitter API Credentials by creating a new app at apps.twitter.com. Enter the appropriate API keys in lines 11-15 of get_tweets.py.
+Enter the appropriate keys from your Twitter app in lines 11-15 of `get_tweets.py` using any text editor.
 
-Then you can run the script by entering one username at the command line:
+Finally you can run the script by entering one Twitter username at the command line:
 
-```'''```
+```
 $ python get_tweets.py [twitter_username]
 ```
 
-<br>or you can use interactive mode
-
-```'''```
-$ python
->>> from get_tweets import get_tweets
->>> get_tweets("[twitter_username]")
-```
-
-##More
-http://www.getlaura.com/how-to-download-tweets-from-the-twitter-api/
+#### More details on my blog:
+[http://www.getlaura.com/how-to-download-tweets-from-the-twitter-api/](http://www.getlaura.com/how-to-download-tweets-from-the-twitter-api/)
