@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#The original is He Wang:https://github.com/wang-he/get_tweets
+##!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import sys
