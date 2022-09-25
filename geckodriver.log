@@ -1,0 +1,42 @@
+1663616625684	geckodriver	INFO	Listening on 127.0.0.1:51631
+1663616628855	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--user-agent=Mozilla/5.0 (X11; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36" "--remote-debugging-port" "51632" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileBzcUaC"
+*** You are running in headless mode.
+1663616629851	Marionette	INFO	Marionette enabled
+1663616629862	Marionette	INFO	Listening on port 51644
+WebDriver BiDi listening on ws://localhost:51632
+Read port: 51644
+1663616630084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663616630159	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:51635","sslProxy":"127.0.0.1:51635"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileBzcUaC\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51632/devtools/browser/4e3af12b-6ffd-45bc-9a4e-817adfbc2f8c
+1663616678303	Marionette	INFO	Stopped listening on port 51644
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendor.1bf6e989.js, line 82: TypeError: can't access dead object
+1663616898484	geckodriver	INFO	Listening on 127.0.0.1:51736
+1663616901607	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--user-agent=Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36 OPR/55.0.2994.47" "--remote-debugging-port" "51737" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile3Vu0cR"
+*** You are running in headless mode.
+1663616902072	Marionette	INFO	Marionette enabled
+1663616902077	Marionette	INFO	Listening on port 51749
+WebDriver BiDi listening on ws://localhost:51737
+Read port: 51749
+1663616902396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663616902450	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:51740","sslProxy":"127.0.0.1:51740"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile3Vu0cR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51737/devtools/browser/ea093749-db23-4886-8c7a-1e32a276456e
+1663616905716	Marionette	INFO	Stopped listening on port 51749
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+1663616948699	geckodriver	INFO	Listening on 127.0.0.1:51771
+1663616951846	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--no-sandbox" "--disable-dev-shm-usage" "--ignore-certificate-errors" "--disable-gpu" "--log-level=3" "--disable-notifications" "--disable-popup-blocking" "--user-agent=Mozilla/5.0 (X11; Linux i686 on x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36 OPR/52.0.2871.64" "--remote-debugging-port" "51772" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile7TAtne"
+*** You are running in headless mode.
+1663616952459	Marionette	INFO	Marionette enabled
+1663616952464	Marionette	INFO	Listening on port 51784
+WebDriver BiDi listening on ws://localhost:51772
+Read port: 51784
+1663616952694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663616952781	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:51775","sslProxy":"127.0.0.1:51775"}
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile7TAtne\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51772/devtools/browser/019bae7f-3700-489b-9082-998b86c19e3d
+1663617004283	Marionette	INFO	Stopped listening on port 51784
+JavaScript error: https://abs.twimg.com/responsive-web/client-web/vendor.1bf6e989.js, line 82: TypeError: can't access dead object
